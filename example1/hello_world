@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker pull hello-world:latest # Скачать образ с Docker Hub
+docker run hello_world:latest # Запустить контейнер на основе образа
+docker ps –a # Посмотреть запущенные контейнеры

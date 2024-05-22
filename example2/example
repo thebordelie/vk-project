@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t myapp:v1 # Создать образ на основе Dockerfile
+docker run -p 8080:8080 myapp:v1 # Запустить контейнер, пробросив порты
